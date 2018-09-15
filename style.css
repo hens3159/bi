@@ -129,11 +129,16 @@ a,i{
 
 .con-laporan{
   color: #808080;
+  margin:12px 0;
+}
+
+.total-uang{
+  margin:0 0 20px 0;
 }
 
 .con-laporan h6{
   text-align: center;
-  margin:12px 0;
+  margin:0 0 12px 0;
   color: #808080;
 }
 

@@ -15,80 +15,37 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--font awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css">
    <link rel="stylesheet" type="text/css" href="style.css">
-
 <style>
 
-.modal-dialog {
-  width: 90%;
-  height: 60%;
-  margin: 0 auto;
-  border: 0;
-  top:20%;
-}
-
-.modal-content {
-  height: auto;
-  min-height: 100%;
-  border-radius: 10px;
-}
 </style>
 
 
   <body>
-    <!-- Large modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
-    <div class="modal  bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-
-            <div class="show-data">
-             <h6 style="text-align:center;">Data Transaksi Penukaran </h6>
-             <div class="data-con">
-            <div class="label-data">Nama Penukar</div>
-            <div class="titik-dua">:</div>
-            <div class="input-data"> Henhen Lukmana</div>
-          </div>
-
-          <div class="data-con">
-         <div class="label-data">Usia</div>
-         <div class="titik-dua">:</div>
-         <div class="input-data">40</div>
-       </div>
-
-       <div class="data-con">
-      <div class="label-data">Alamat</div>
-      <div class="titik-dua">:</div>
-      <div class="input-data">Perum Sukamenak Indah</div>
-    </div>
-
-    <div class="data-con">
-   <div class="label-data">Tanggal</div>
-   <div class="titik-dua">:</div>
-   <div class="input-data">26 Januari 1996</div>
- </div>
-
- <div class="data-con">
-<div class="label-data">Nominal</div>
-<div class="titik-dua">:</div>
-<div class="input-data">Rp. 100.000-</div>
+  <form>
+  <div class="container-fluid">
+    <div class="row">
+  <div class="col-xs-6">
+  <div class="form-group">
+  <label for="tanggal" style="font-weight:100; color:#808080; font-size:12px;" >Set Tanggal Awal</label>
+  <input type="date" class="form-control" id="email">
+  </div>
 </div>
-<br>
-<button type="button" class="btn btn-success btn-block btn-lg" data-dismiss="modal" id="ok">Ok</button>
 
-            </div>
+<div class="col-xs-6">
+<div class="form-group">
+<label for="tanggal" style="font-weight:100; color:#808080; font-size:12px;" >Set Tanggal Akhir</label>
+<input type="date" class="form-control" id="email">
+</div>
+</div>
 
-          </div>
-        </div>
+</div>
+</div>
 
+  </form>
 
-
-        </div>
-      </div>
-    </div>
 
   </body>
 </html>
