@@ -129,12 +129,19 @@ a,i{
 
 .con-laporan{
   color: #808080;
-  margin:12px 0;
+  margin:0 0 20px 0;
 }
 
 .total-uang{
-  margin:0 0 20px 0;
+  margin:20px 0 20px 0;
 }
+
+.form-date{
+background-color:white;
+padding-top:8px;
+color:#808080;
+}
+
 
 .con-laporan h6{
   text-align: center;
