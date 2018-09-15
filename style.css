@@ -199,3 +199,7 @@ a,i{
   clear: both;
   display: table;
 }
+
+.button a{
+  text-decoration: none;
+}
